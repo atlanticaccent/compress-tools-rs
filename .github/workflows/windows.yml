@@ -18,7 +18,7 @@ jobs:
           - stable
           - nightly
 
-    name: Test ${{ matrix.version }} - x86_64-pc-windows-msvc
+    name: Test ${{ matrix.version }} - x86_64-pc-windows-msvc 
     runs-on: windows-latest
 
     steps:
